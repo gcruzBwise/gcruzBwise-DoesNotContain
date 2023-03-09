@@ -1,3 +1,6 @@
+import static org.junit.Assert.assertNotEquals;
+
+import java.util.*;
 
 public class DoesNotContain {
     /**
@@ -15,6 +18,12 @@ public class DoesNotContain {
      * @return true if arr does not contain target. false otherwise.
      */
     public boolean arrayDoesNotContain(int[] arr, int target){
-        return false;
+        for(int i : arr){
+        if ( i == target){
+
+return false;
     }
 }
+        return true;
+        }
+    }
